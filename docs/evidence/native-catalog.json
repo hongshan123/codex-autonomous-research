@@ -1,0 +1,30 @@
+{
+  "client": "Codex CLI",
+  "version": "0.162.1",
+  "check": "native plugin list --available",
+  "exit_code": 0,
+  "path_redaction": "<PACKAGE_ROOT> replaces the source directory only.",
+  "result": {
+    "installed": [],
+    "available": [
+      {
+        "pluginId": "autonomous-research@research-tools",
+        "name": "autonomous-research",
+        "marketplaceName": "research-tools",
+        "version": "0.1.0",
+        "installed": false,
+        "enabled": false,
+        "source": {
+          "source": "local",
+          "path": "<PACKAGE_ROOT>/plugins/autonomous-research"
+        },
+        "marketplaceSource": {
+          "sourceType": "local",
+          "source": "<PACKAGE_ROOT>"
+        },
+        "installPolicy": "AVAILABLE",
+        "authPolicy": "ON_INSTALL"
+      }
+    ]
+  }
+}

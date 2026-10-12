@@ -1,0 +1,6 @@
+# Optional: use only when the installed native client accepts these settings
+# and needs a visible V2 custom-role selector. Verify in a fresh trusted session.
+[features.multi_agent_v2]
+enabled = true
+hide_spawn_agent_metadata = false
+tool_namespace = "research_agents"

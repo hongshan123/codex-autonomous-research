@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "autonomous-research",
+  "version": "0.1.0",
+  "description": "Native Codex scientific research with configurable agents, bounded experiments, independent audits and project memory.",
+  "extensions": {
+    "com.openai": {"onboardingSkill": "./skills/setup/SKILL.md"}
+  }
+}

@@ -1,0 +1,50 @@
+# Plugin parameters: not a native Codex config. Apply through the configure Skill.
+schema_version = 1
+config_revision = 1
+
+[models.pi]
+model = "gpt-6.1-sol"
+reasoning_effort = "high"
+
+[models.experimenter]
+model = "gpt-6-luna"
+reasoning_effort = "max"
+
+[models.auditor]
+model = "gpt-6.1-sol"
+reasoning_effort = "high"
+
+[models.literature_researcher]
+model = "gpt-6.1-sol"
+reasoning_effort = "high"
+
+[budget]
+max_experiment_rounds = 3
+max_route_adjustments = 2
+max_repair_retries_per_round = 2
+max_parallel_subagents = 3
+max_parallel_gpu_experiments = 2
+max_experiment_wall_seconds = 1800
+total_gpu_hours = 0.0
+max_training_updates = 0
+max_training_tokens = 0
+
+[smoke]
+max_wall_seconds = 1200
+gpu_hours = 0.0
+
+[permissions]
+experimenter_sandbox = "workspace-write"
+auditor_sandbox = "workspace-write"
+literature_researcher_sandbox = "read-only"
+auditor_write_scope = "assigned-report-only"
+evidence_integrity = "procedural-hash-and-diff"
+
+[protocol]
+status = "UNSET"
+core_question = "UNSET"
+success_criteria = "UNSET"
+dataset_or_inputs = "UNSET"
+primary_metric_or_criterion = "UNSET"
+seed_policy = "UNSET"
+training_budget = "UNSET"

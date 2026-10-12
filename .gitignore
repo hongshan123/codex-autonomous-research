@@ -1,0 +1,6 @@
+# Local delivery artifacts and private validation workspaces
+dist/
+.local-validation/
+*.tar.gz
+*.tar.gz.sha256
+.DS_Store

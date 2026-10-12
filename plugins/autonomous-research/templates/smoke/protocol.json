@@ -1,0 +1,10 @@
+{
+  "kind": "SIMULATED",
+  "hypothesis": "SMOKE-H1",
+  "primary_metric": "exact_match_accuracy",
+  "success_threshold": 0.9,
+  "planned_seeds": [11, 22, 33],
+  "sample_ids_per_seed": ["toy-a", "toy-b", "toy-c"],
+  "gpu_hours": 0,
+  "real_experiment_rounds": 0
+}

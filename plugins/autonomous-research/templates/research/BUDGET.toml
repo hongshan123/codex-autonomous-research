@@ -1,0 +1,17 @@
+# PI-only ledger. Never reset on resume, configure, reinstall or plugin upgrade.
+schema_version = 1
+experiment_rounds_used = 0
+experiment_rounds_reserved = 0
+route_adjustments_proposed = 0
+gpu_hours_used = 0.0
+gpu_hours_reserved = 0.0
+training_updates_used = 0
+training_updates_reserved = 0
+training_tokens_used = 0
+training_tokens_reserved = 0
+active_gpu_experiments = 0
+# Each reservation records round ID, config/protocol hashes, owner, devices,
+# resource ceilings, start/end timestamps, PID/job/session IDs and stop evidence.
+reservations = []
+# Track retry lineage per initial round: root ID, count, descendant run IDs.
+repair_lineages = []

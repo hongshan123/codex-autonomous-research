@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12",
+  "kind": "STATIC_PACKAGE_CHECK",
+  "snapshot_file_count": 37,
+  "snapshot_note": "Count precedes addition of this evidence file; not a runtime role test.",
+  "json_files_parsed": 7,
+  "toml_files_parsed": 7,
+  "skill_frontmatter_checked": 5,
+  "native_role_names": ["auditor", "experimenter", "literature_researcher"],
+  "missing_local_markdown_references": [],
+  "manifest_identity_and_onboarding_mismatches": [],
+  "personal_absolute_paths_in_package_text": [],
+  "global_codex_config_sha256_before_and_after": "2079c5881ea2ebd8092f1112d421442874a25d6d10423984d6f5240e142d333f",
+  "existing_project_tracked_diff_empty": true,
+  "gpu_hours_used": 0,
+  "role_runtime_smoke": "NOT_RUN",
+  "project_bootstrap_execution": "NOT_RUN",
+  "cross_server_verification": "NOT_RUN"
+}

@@ -1,0 +1,16 @@
+# Merge only relevant keys; render model/effort/concurrency from research/CONFIG.toml.
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+# Safe initialization default. Verification uses explicit scoped permissions.
+sandbox_mode = "read-only"
+approval_policy = "on-request"
+web_search = "live"
+
+[features]
+multi_agent = true
+goals = true
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
+max_depth = 1

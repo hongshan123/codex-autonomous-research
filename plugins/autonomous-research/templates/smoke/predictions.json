@@ -1,0 +1,8 @@
+{
+  "kind": "SIMULATED",
+  "rows": [
+    {"seed": 11, "sample_id": "toy-a", "label": "A", "prediction": "A"},
+    {"seed": 11, "sample_id": "toy-b", "label": "B", "prediction": "A"},
+    {"seed": 11, "sample_id": "toy-c", "label": "C", "prediction": "C"}
+  ]
+}

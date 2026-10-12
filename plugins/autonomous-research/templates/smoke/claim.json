@@ -1,0 +1,6 @@
+{
+  "kind": "SIMULATED_UNTRUSTED_CLAIM",
+  "claimed_accuracy": 0.99,
+  "claimed_all_seeds_completed": true,
+  "warning": "This deliberate false claim exercises independent auditing, not a real scientific result."
+}
